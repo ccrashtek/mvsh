@@ -1,0 +1,60 @@
+@import "CSS Snippets/keyframes animations.css";
+@import "CSS Snippets/side panel.css";
+@import "CSS Snippets/base.css";
+@import "CSS Snippets/fonts.css";
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+    animation: bg-animation 4s, bg-cycle-animation 12s infinite, bg-hue-animation 20s infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+@font-face {
+    font-family: NeueMachina;
+    src: url(NeueMachina-Regular.otf);
+  }
+
+.text {
+    animation: text-animation 3s;
+    animation-timing-function: ease-in-out;
+    font-family: NeueMachina;
+    font-weight: normal;
+    position: absolute;
+    color: #fff;
+    left:130px;
+    z-index: 2;
+}
+
+.h1 {
+    font-size: 22px;
+    top: 9%;
+  }
+  
+  .glitch:hover{
+    animation: glitch 1s 1s infinite;
+   }
+
+.h2 {
+    font-size: 18px;
+    top: 20%;
+    line-height: 13px;
+  }
+
+.h3 {
+    font-size: 12px;
+    top: 55%;
+    line-height: 13px;
+}
+
+.h4 {
+    font-size: 12px;
+    top: 85%;
+    line-height: 13px;
+}
+
+.link {
+    color: #33ffa3;
+}

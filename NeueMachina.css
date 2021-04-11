@@ -1,0 +1,77 @@
+@import "CSS Snippets/keyframes animations.css";
+@import "CSS Snippets/side panel.css";
+@import "CSS Snippets/base.css";
+
+.bg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 800px;
+    object-fit: contain;
+    z-index: 2;
+    animation: bg-animation 4s, bg-cycle-animation 20s infinite;
+    animation-timing-function: ease-in-out;
+    top: 50%;
+    left: 80%;
+  }
+
+@font-face {
+    font-family: NeueMachina;
+    src: url(NeueMachina-Regular.otf);
+  }
+
+.text{
+  animation: text-animation 3s;
+  animation-timing-function: ease-in-out;
+  font-family: NeueMachina;
+  font-weight: normal;
+  position: absolute;
+  line-height: 20px;
+  color: #fff;
+  left: 130px;
+  z-index: 3;
+}
+
+.h1{
+  font-size: 48px;
+  top: 12%;
+}
+
+.h2{
+  font-size: 18px;
+  top: 30%
+}
+
+.h3{
+  font-size: 22px;
+  top: 60%;
+}
+
+.bg-text{
+    z-index: 2;
+    font-size: 96px;
+    top: 75%;
+    left: 50%;
+    line-height:120px;
+}
+
+.bg-text1{
+    z-index: 2;
+    font-size: 46px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 97.5%;
+    line-height:30px;
+}
+
+.h4{
+  font-size: 12px;
+}
+
+.download{
+  top: 85%;
+}
+
+.link{
+  color: #ff7f11;
+}

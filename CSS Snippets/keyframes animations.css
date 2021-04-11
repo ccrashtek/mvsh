@@ -1,0 +1,125 @@
+
+  @keyframes bg-animation {
+        0%{
+          margin-top: -20px;
+          filter:grayscale(1) blur(1000px);
+          opacity: 0;
+        }
+
+        30%{
+          margin-top: 0px;
+        }
+
+        80%{
+          opacity: 1;
+        }
+  
+        100%{
+          filter:grayscale(0) blur(0px);
+        }
+  }
+  
+  @keyframes bg-cycle-animation {
+        0%{
+          filter: sepia(0) blur(0px) grayscale(0);
+        }
+        9%{
+          filter: blur(0px);
+        }
+        10%{
+          filter: blur(2px);
+        }
+        11%{
+          filter: blur(0px);
+        }
+        49%{
+          filter: sepia(0) grayscale(0);
+        }
+        50%{
+          filter: sepia(0.25) grayscale(0.5);
+        }
+        51%{
+          filter: sepia(0) grayscale(0);
+        }
+        100%{
+          filter: sepia(0) blur(0px) grayscale(0);
+        }
+  
+  }
+  
+  @keyframes bg-hue-animation {
+        0%{
+          filter: hue-rotate(0deg);
+        }
+        10%{
+          filter: hue-rotate(15deg);
+        }
+        20%{
+          filter: hue-rotate(0deg);
+        }
+        32%{
+          filter: hue-rotate(0deg);
+        }
+        36%{
+          filter: hue-rotate(40deg);
+        }
+        40%{
+          filter: hue-rotate(0deg);
+        }
+        70%{
+          filter: hue-rotate(0deg);
+        }
+        75%{
+          filter: hue-rotate(-20deg);
+        }
+        80%{
+          filter: hue-rotate(0deg);
+        }
+  }
+
+  @keyframes glitch {
+        0%{
+            margin-right: 20px;
+         }
+         1%{
+          transform: rotateX(10deg) skewX(90deg);
+         }
+        2%{
+          transform: rotateX(0deg) skewX(0deg);
+        }
+        50%{
+            margin-right: 200px;
+        }
+        100%{
+            margin-right: 20px;
+        }
+      
+  }
+
+  @keyframes text-animation {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
