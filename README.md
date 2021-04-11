@@ -1,2 +1,5 @@
-# mvsh
-МВШ - это мой школьный проект который училка попросила подготовить лол
+# MVSH
+
+## МВШ - is just a simple school project.
+
+### You can download and use any files from this repo.
